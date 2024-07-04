@@ -239,3 +239,135 @@ header::before {
     font-weight: 500;
 }
 /* header end */
+
+/* about start */
+.about {
+    text-align: center;
+}
+
+.about_container {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+
+.about_container .about-img {
+    border: 3px solid var(--primary);
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 12.5rem;
+    max-height: 12.5rem;
+    margin-right: 2rem;
+    position: relative;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.about_container .about-text {
+    max-width: 70%;
+    text-align: justify;
+    line-height: 1.5rem;
+    letter-spacing: 0.5px;
+    padding-bottom: 2.5rem;
+}
+
+.about_container .about-text p {
+    margin-bottom: 0.8rem;
+}
+
+.about_container .about-text .text {
+    margin-bottom: 1rem;
+}
+
+.about_container .about-text .text span {
+    color: var(--primary);
+    font-weight: 500;
+}
+
+/* about end */
+
+/* service start */
+
+.services {
+    text-align: center;
+    margin-top: -5rem;
+}
+
+.services_container .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.services_container .cards .card {
+    background-color: var(--primary);
+    padding: 1.5rem 1rem;
+    margin: 0 1.5rem;
+    cursor: pointer;
+    position: relative;
+    
+}
+
+.s_box i {
+    font-size: 2rem;
+    width: 4rem;
+    height: 4rem;
+    color: var(--bg);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 14px;
+    transition: all 1s;
+}
+
+.s_box h3 {
+    font-size: 1.2rem;
+    color: var(--black);
+}
+
+.s_box p {
+    margin: 1.2rem 0;
+    color: var(--bg);
+}
+
+.s_box a {
+    color: var(--normal);
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.3rem 1rem;
+    background-color: var(--bg);
+    border-radius: 1rem;
+}
+
+.s_box a:hover {
+    background-color: var(--normal);
+    color: var(--bg);
+    border: 1px solid var(--bg);
+}
+
+.services_container .cards .card:hover .s_box i {
+    background-color: var(--bg);
+    color: var(--normal);
+}
+
+.services_container .cards .card::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: var(--normal);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.5s;
+}
+
+.services_container .cards .card:hover::after {
+    transform: rotate(13deg);
+}
+
+/* service end */
