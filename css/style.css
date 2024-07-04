@@ -534,19 +534,11 @@ header::before {
 
 /* project start */
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
 h2.border_bottom {
     border-bottom: 2px solid #333;
     display: inline-block;
     margin-bottom: 20px;
 }
-
-/* project start */
 
 .portfolio_container {
     text-align: center;
@@ -826,7 +818,6 @@ footer ul li a:hover {
     .box {
         width: 80%;
     }
-/* ..................................... */
     .main {
         flex-direction: column;
         align-items: center;
