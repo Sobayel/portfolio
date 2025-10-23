@@ -6,11 +6,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "devDependencies": {},
-"scripts": {
-  "build": "echo 'Static HTML site - no build needed'",
-  "deploy": "surge . sobayel-portfolio.surge.sh"
-},
+  "scripts": {
+    "build": "echo 'Static HTML site - no build needed'",
+    "deploy": "surge . sobayel-portfolio.surge.sh"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sobayel/portfolio.git"
