@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "surge": "^0.24.6"
+  },
+  "name": "sobayel-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+"scripts": {
+  "build": "echo 'Static HTML site - no build needed'",
+  "deploy": "surge . sobayel-portfolio.surge.sh"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sobayel/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sobayel/portfolio/issues"
+  },
+  "homepage": "https://github.com/Sobayel/portfolio#readme"
+}
